@@ -72,8 +72,7 @@ function clearStored() {
 function solve() {
     expression = document.getElementById("input").value
     try {
-        let result = eval(expression)
-        document.getElementById("input").value = result
+        document.getElementById("input").value = eval(expression)
     }
     catch {
         document.getElementById("input").value = 'Invalid Expression to evaluate!';
