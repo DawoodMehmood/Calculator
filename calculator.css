@@ -62,7 +62,7 @@ header {
     height: 65px;
     margin-bottom: 5px;
     padding: 5px 5px 5px 15px;
-    font-size: large;
+    font-size: larger;
 }
 
 .grid-container input[type="button"]:active {
